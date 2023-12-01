@@ -35,7 +35,7 @@ def part_2(input_list: list) -> int:
 
 def day_2(selected_part: int = None, test: bool = False) -> (int, int):
     """ Needed to select which part of the 2nd day we want to execute
-    :param selected_part: selected Advent of Code part of the 1st day
+    :param selected_part: selected Advent of Code part of the 2nd day
     :param test: flag to use test input
     """
     input_list = parse_by_line(2, int_list=False, is_test=test)

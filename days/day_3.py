@@ -87,7 +87,7 @@ def part_2(input_number: int) -> int:
 
 def day_3(selected_part: int = None, test: bool = False) -> (int, int):
     """ Needed to select which part of the 3rd day we want to execute
-    :param selected_part: selected Advent of Code part of the 1st day
+    :param selected_part: selected Advent of Code part of the 3rd day
     :param test: flag to use test input
     """
     puzzle_input = int(parse_single_line(3, is_test=test).strip())
