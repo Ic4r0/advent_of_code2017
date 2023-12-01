@@ -19,6 +19,7 @@ from days.day_2 import day_2
 from days.day_3 import day_3
 from days.day_4 import day_4
 from days.day_5 import day_5
+from days.day_6 import day_6
 from utils.validator import check_valid_arguments
 
 
@@ -37,6 +38,8 @@ def save_xmas(selected_day: int, selected_part: int = None):
         day_4(selected_part)
     elif selected_day == 5:
         day_5(selected_part)
+    elif selected_day == 6:
+        day_6(selected_part)
     elif 0 < selected_day < 26:
         print('No available solution for the selected day')
     else:
