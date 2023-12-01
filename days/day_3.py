@@ -4,8 +4,7 @@ Created: 29th November 2023
 """
 
 # imports
-from utils.parse_input import parse_by_line, parse_single_line
-from re import match
+from utils.parse_input import parse_single_line
 
 
 # modules
